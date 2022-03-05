@@ -1,0 +1,386 @@
+/* External Link Here  */
+
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* body style here  */
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+/* header */
+header{
+    background-color: #2D25A0;
+    height: 30%;
+    
+}
+nav{
+    padding: 0px 156px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 44px;
+}
+.nav-manu{
+    /* width: 588px; */
+    height: 24px;
+}
+.nav-manu a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding-left:36px;
+}
+
+.nav-manu-mobile{
+    height: 24px;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding-left:36px;
+    display: none;
+}
+
+
+button{
+    color: white;
+    font-size: 16px;
+    background-color: #E02C6D;
+    width: 144px;
+    height: 44px;
+}
+button i{
+    padding: 0px 5px;
+}
+
+/* banner design  */
+.banner{
+    color: white;
+    display: flex;
+    padding-top: 50px;
+    padding-right: 102px;
+    font-weight: bold;
+    /* justify-content: space-between; */
+    padding: 0px 156px;
+}
+.text-box{
+    width: 485px;
+    height: 230px;
+    font-size: 55px;
+    justify-content: inherit;
+}
+.banner-pciture img{
+    width: 556px;
+    height: 456px;
+}
+/* player blogs */
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 0px;
+    /* margin-left: 180px;
+    margin-right: 180px; */
+    padding: 90px;
+    place-items: center;
+}
+.player p{
+    font-size: 16px;
+}
+.player h3{
+    font-size: :28px;
+}
+
+.card-container{
+    padding: 0px 156px;
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+}
+.name-card{
+    margin: 10px;
+    padding: 30px;
+    /* width: 330px; */
+    width: 300px;
+    height: 426px;
+    /* height: 474px; */
+    border: 1px solid black;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 1px 1px 7px red;
+}
+/* .player{
+    padding: 0;
+    margin: 0;
+} */
+
+/* .player img{
+    width: 100%;
+    height: 256px;
+} */
+
+.name-card img{
+    width: 100%;
+    height: 256px;
+}
+
+
+/* Highlight  */
+.highlight-box {
+    color: rgb(5, 5, 5);
+    /* display: flex; */
+    padding-top: 50px;
+    /* padding-right: 102px; */
+    font-weight: bold;
+    /* justify-content: space-between; */
+    /* padding: 0px 156px; */
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+.highlight-detail{
+    display: block;
+    padding-left: 15px;
+    margin-right:10px;
+    margin-left: 20px;
+}
+
+.highlight-img{
+    padding-right: 15px;
+}
+.highlight-img img{
+    width: 567px;
+    height: 427px;
+}
+/* Feedback forum */
+
+.form{
+    margin: 20px;
+    border-color: rgb(243, 0, 49);
+    border: 2px solid;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: rgb(174, 251, 253);
+}
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    background-color: lightblue;
+  
+  }
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+  
+  }
+
+/* footer areas  */
+
+.copyright{
+    position: absolute;
+        width: 100%;
+        color: rgb(0, 0, 0);
+        padding-top: 158px;
+        font-size: 16px;
+        text-align: center;
+        padding-bottom: 20px;
+
+}
+.copyright img{
+    height: 110px;
+    width: 484px;
+}
+.copyright i{
+    padding: 10px;
+}
+
+button{
+    background: red;
+    transition: width 2s;
+    transition: all 0.5s ease-out;
+
+}
+button:hover {
+    width: 300px;
+  }
+
+button:focus {
+    background-color: rgb(1, 252, 231);
+    color: #333;
+  }
+
+/* extra --  */
+.team-name{
+    background-color: cornflowerblue;
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+   /* grid-template-columns: 200px 200px 200px;*/
+   /* grid-template-columns: repeat(3,200px);*/
+    grid-template-columns: repeat(3,1fr);
+    /*grid-gap: 20px;*/
+    grid-gap: 20px 5px;
+}
+.grid-cell{
+    border: 1px solid blue;
+    text-align: center;
+    background-color: bisque;
+    border-radius: 3px;
+    font-size: 24px;
+}
+
+/* hidder */
+.nav-mobile{
+    display: none;
+}
+/* mobile device */
+
+@media only screen and (max-width: 500px){
+    /* header{
+        background-color: darkblue;
+    } */
+    nav{
+        margin-left: 4%;
+        margin-right: 30%;
+        padding-top: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
+        display: flex;
+        /* position: relative; */
+        justify-content: space-between;
+        background-color: #2D25A0;
+
+    }
+    .nav-manu{
+        display: none;
+    }
+    .nav-mobile{
+        display: block;
+        font-size: 16px;
+        color: cornsilk;
+        padding-left: 16px;
+    }
+/* ---banner-- */
+.banner{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.banner span{
+    margin-left: 0%;
+}
+.text-box{
+    font-size: 38px;
+    text-align: right;
+    padding: 0px;
+    margin: 0mm;
+}
+.banner-pciture img{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 300px;
+    height: 400px;
+    padding-left: 20px;
+}
+button{
+    width: 100px;
+    height: 28px;
+    font-size: 12px;
+    font-weight: bold;
+}
+/* ---------blogs */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+   
+    /* margin-left: 180px;
+    margin-right: 180px; */
+    padding: 1px;
+    place-items: center;
+}
+
+.name-card{
+    padding-right: 30px;
+    width: 240px;
+    height: 390px;
+    margin-left: -3px;
+}
+.name-card div h3{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 3px;
+    font-size: 16px;
+}
+.name-card div p{
+    font-size: 12px;
+}
+
+/* -----------blogs ends  */
+
+.highlight-box{
+
+}
+.highlight-box{
+    display: block;
+    padding-left: 15px;
+}
+.highlight-img img{
+    padding-top: 10px;
+    width: 300px;
+    height: 300px;
+}
+ .highlight-detail{
+    padding-left: 0px;
+ }   
+.highlight-detail p{
+    font-size: 12px;
+    font-weight: normal;
+}
+.highlight-detail h3{
+    font-size: 16px;
+}
+
+/* grid cell  */
+.grid-cell{
+    width: 85px;
+    font-size: 12px;
+    padding: 5px;
+}
+.grid-cell h1{
+    font-size: 16px;
+}
+.team-name{
+    padding-left: 18px;
+    border-radius: 16px;
+    padding-bottom: 10px;
+}
+.copyright img{
+    width: 260px;
+    height: 60px;
+    padding-top: 22px;
+    overflow-x: hidden;
+    margin-left: 0px;
+
+}
+
+
+
+
+
+
+ }
